@@ -1,0 +1,60 @@
+.card-container {
+    width: 280px;
+    margin: 70px auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: hsl(216, 50%, 16%);
+}
+.text-description h3 {
+    color: hsl(0, 0%, 100%);
+}
+.text-description p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.price__time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    width: 100px;
+}
+.eth-icon {
+    margin-right: 10px;
+}
+.time {
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: flex-start;
+}
+.clock-icon {
+    margin-right: 10px;
+    width: 20px;
+}
+hr {
+    color: hsl(215, 32%, 27%);
+}
+.card-footer {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.avatar {
+    width: 30px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.creator-text {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.creator-text span {
+    color: hsl(0, 0%, 100%);
+}
